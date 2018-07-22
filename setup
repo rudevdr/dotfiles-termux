@@ -1,0 +1,8 @@
+pkg install
+chsh -s
+pkg install curl
+bash -c "$(curl -fsSL https://git.io/oh-my-termux)"
+echo 
+echo DONE! RESTART TERMUX!!
+
+rm setup
